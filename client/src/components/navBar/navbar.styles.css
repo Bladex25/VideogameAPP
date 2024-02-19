@@ -1,0 +1,76 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand-text {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 30px;
+}
+.navbar a:last-child {
+    margin-right: 0;
+}
+
+.brand-text{
+    color: #009F9D;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.span-games{
+    color: #fff;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.create{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: #009F9D;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 5px
+}
+
+.create:hover {
+    background-color: #009F9D;
+    color: white;
+}
+
+.home{
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    color: #009F9D;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    right: 100px;
+    margin-top: -16px;
+}
+
+.home:hover {
+    background-color: #009F9D;
+    color: white;
+}
